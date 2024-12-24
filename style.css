@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+
+    .banner {
+        background-color: blue;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+    
+        .banner h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        background-color: #333;
+        padding: 10px 0;
+    }
+    .nav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .nav a:hover {
+        background-color: white;
+        border-radius: 20px;
+        color: black;
+        transition: all 0.5s;
+    }  
+
+
+    .home,.about,.contact {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+
+    .banner img{
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .backimg{
+        background-image: url('company.jpeg'); 
+        background-size: cover;
+        color: white;
+    }
+
+    .company img{
+       width: 100%;
+
+    }
+
+    .contactus {
+        max-width: 600px;
+        margin: 0 auto;
+        background: white;
+        padding: 50px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px gray;
+    }
+
+
+    .contactus input, .contactus textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid;
+        border-radius: 5px;
+    }
+
+
+    .contactus button {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+
+    .contactus button:hover {
+        background-color: rgb(11, 237, 11);
+        transition: all 0.5;
+    }
+    
+    .footer-icons {
+        font-size: 1.5em;
+    }
+
+
+    .footer-icons a {
+        color: black;
+    }
+
+    
+    .footer-icons a:hover {
+        color: green;
+    }
+}
